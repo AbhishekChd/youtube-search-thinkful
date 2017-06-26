@@ -9,24 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<h1>Youtube Search</h1>
-<form action="">
-    <label>Enter search term: </label>
-    <input id="js-search-text" type="text">
-    <button type="submit">Search</button>
-</form>
 
-<div class="js-search-results">
-<!--
-    <div>
-        <figure>
-            <a href="#"><img></a>
-            <figcaption></figcaption>
-        </figure>
+<body>
+    <div class="container">
+        <h1>Youtube Search <small> :thinkful-project</small></h1>
+        <form class="form-horizontal well">
+            <fieldset>
+                <legend>Search</legend>
+                <div class="form-group">
+                    <label for="inputSearchTerm" class="col-lg-2 control-label">Enter search term: </label>
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control" id="js-search-text" placeholder="Search">
+                    </div>
+                    <div class="col-lg-2">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+
+        <div class="js-search-results row"></div>
     </div>
--->
-</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
