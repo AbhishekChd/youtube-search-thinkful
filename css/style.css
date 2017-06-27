@@ -23,3 +23,7 @@
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
 	opacity: 0;
 }
+.pages{
+    display: flex;
+    justify-content: center;
+}
